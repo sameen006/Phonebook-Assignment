@@ -43,7 +43,7 @@ public class MainView extends Div {
 
     private ContactInfoModel contactInfoModel = new ContactInfoModel();
 
-    private ContactInfoService service = new ContactServiceDBImpl();
+    private ContactInfoService service = new ContactInfoServiceInMemoryImpl();
 
 
     public MainView() {

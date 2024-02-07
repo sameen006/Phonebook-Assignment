@@ -34,7 +34,7 @@ import static java.util.Comparator.naturalOrder;
 public class ContactDataProvider
 		extends AbstractBackEndDataProvider<ContactInfoModel, CrudFilter> {
 
-	private final ContactInfoService service = new ContactServiceDBImpl();
+	private final ContactInfoService service = new ContactInfoServiceInMemoryImpl();
 
 	public  ConcurrentHashMap<Integer,ContactInfoModel> DATABASE = service.getContacts();
 
