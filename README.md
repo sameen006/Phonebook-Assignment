@@ -1,4 +1,4 @@
-<img width="1217" alt="image" src="https://github.com/sameen006/Phonebook-Assignment/assets/159250159/0d772de5-a0c7-4d5d-b5f6-0ab39c9de92d"># Phonebook-Assignment
+# Phonebook-Assignment
 In branch "database" phone book assignment is implemented using MySql db.
 
 Below attached are the screenshots of each functionality that was mention in assignmnent.
@@ -33,30 +33,30 @@ Proper checks are added to make sure that phone number for each record in the ph
 
 These checks are handled for both scenarios i.e., creating a new contact OR updating existing record
 
-      **i) Creating new contact(unique number validation)**
-      
-              As "03344685256" phone number already exist for contact name sameen in db. So user will not be allowed to create a new contact with same number.
-              <img width="1093" alt="image" src="https://github.com/sameen006/Phonebook-Assignment/assets/159250159/b022ece0-86e0-4ae9-bd89-457fc27651e3">
-              <img width="855" alt="image" src="https://github.com/sameen006/Phonebook-Assignment/assets/159250159/e075dbab-e20b-4389-a383-3d142b5d2049">
-      
-      
-          
-      **ii) Creating new contact(number length validation)**
-          Image showing if number length is less than 11 then an error will appear
-          <img width="868" alt="image" src="https://github.com/sameen006/Phonebook-Assignment/assets/159250159/78a4dbc1-6c40-4e4b-9c35-3f37d8840642">
-      
-      **iii) Updating existing contact(unique number validation)**
-            As "03344685256" phone number already exist for contact name sameen in db. So user will not be allowed to create a new contact with same number.So user will not be ale to update existing contact with same number.
-              <img width="1093" alt="image" src="https://github.com/sameen006/Phonebook-Assignment/assets/159250159/b022ece0-86e0-4ae9-bd89-457fc27651e3">
-              Contact name "hira" is  an existing contact with a different number and user cannot update it to anyexisting number.
-              <img width="1375" alt="image" src="https://github.com/sameen006/Phonebook-Assignment/assets/159250159/a3841f8d-4b81-453d-9710-2993c500188b">
-      
-              <img width="860" alt="image" src="https://github.com/sameen006/Phonebook-Assignment/assets/159250159/725d2771-a00d-4d1c-847a-c4c0ee3402e1">
-      
-      
-      **iv) Updating existing contact (number length validation)**
-        Number length validation is also added in edit mode as shon in image below.
-        <img width="861" alt="image" src="https://github.com/sameen006/Phonebook-Assignment/assets/159250159/8250469f-0fa8-4031-90c9-98f505065f84">
+   **i) Creating new contact(unique number validation)**
+   
+           As "03344685256" phone number already exist for contact name sameen in db. So user will not be allowed to create a new contact with same number.
+           <img width="1093" alt="image" src="https://github.com/sameen006/Phonebook-Assignment/assets/159250159/b022ece0-86e0-4ae9-bd89-457fc27651e3">
+           <img width="855" alt="image" src="https://github.com/sameen006/Phonebook-Assignment/assets/159250159/e075dbab-e20b-4389-a383-3d142b5d2049">
+   
+   
+       
+   **ii) Creating new contact(number length validation)**
+       Image showing if number length is less than 11 then an error will appear
+       <img width="868" alt="image" src="https://github.com/sameen006/Phonebook-Assignment/assets/159250159/78a4dbc1-6c40-4e4b-9c35-3f37d8840642">
+   
+   **iii) Updating existing contact(unique number validation)**
+         As "03344685256" phone number already exist for contact name sameen in db. So user will not be allowed to create a new contact with same number.So user will not be ale to update existing contact with same number.
+           <img width="1093" alt="image" src="https://github.com/sameen006/Phonebook-Assignment/assets/159250159/b022ece0-86e0-4ae9-bd89-457fc27651e3">
+           Contact name "hira" is  an existing contact with a different number and user cannot update it to anyexisting number.
+           <img width="1375" alt="image" src="https://github.com/sameen006/Phonebook-Assignment/assets/159250159/a3841f8d-4b81-453d-9710-2993c500188b">
+   
+           <img width="860" alt="image" src="https://github.com/sameen006/Phonebook-Assignment/assets/159250159/725d2771-a00d-4d1c-847a-c4c0ee3402e1">
+   
+   
+   **iv) Updating existing contact (number length validation)**
+     Number length validation is also added in edit mode as shon in image below.
+     <img width="861" alt="image" src="https://github.com/sameen006/Phonebook-Assignment/assets/159250159/8250469f-0fa8-4031-90c9-98f505065f84">
 
 
 **5- Valid email check**
